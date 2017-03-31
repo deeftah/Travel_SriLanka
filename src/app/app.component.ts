@@ -23,7 +23,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: Page1 },
-      { title: 'Historical Places', component: Page2 }
+      { title: 'Historical Places', component: Page2 },
+      { title: 'Adventure Places', component: Page2 },
+      { title: 'Religious Places', component: Page2 },
+      { title: 'Fun Places', component: Page2 }
     ];
 
   }
