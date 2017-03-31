@@ -24516,3 +24516,11 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+.scroll-content {
+  overflow-y: hidden;
+}
+
+page-page1 .scroll-content {
+  overflow-y: hidden;
+}
