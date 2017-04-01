@@ -24524,3 +24524,7 @@ ion-navbar.toolbar {
 page-page1 .scroll-content {
   overflow-y: hidden;
 }
+
+page-page2 .scroll-content {
+  overflow-y: visible;
+}
