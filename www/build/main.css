@@ -24521,10 +24521,10 @@ ion-navbar.toolbar {
   overflow-y: hidden;
 }
 
-page-page1 .scroll-content {
-  overflow-y: hidden;
-}
-
 page-page2 .scroll-content {
   overflow-y: visible;
+}
+
+page-page1 .scroll-content {
+  overflow-y: hidden;
 }

@@ -1,17 +1,20 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
+import { Page1 } from '../pages/Home/page1';
+import { Page2 } from '../pages/Categories/page2';
+import {AddplacePage} from "../pages/addplace/addplace";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [
     MyApp,
     Page1,
-    Page2
+    Page2,
+    AddplacePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     Page1,
-    Page2
+    Page2,
+    AddplacePage
   ],
   providers: [
     StatusBar,

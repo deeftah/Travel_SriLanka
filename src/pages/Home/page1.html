@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Travel_Sri Lanka Home</ion-title>
+  </ion-navbar>
+  <ion-toolbar color="secondary">
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p>
+    Top places in Sri Lanka to visit.
+  </p>
+
+  <ion-list>
+    <ion-item >
+      <ion-thumbnail item-left>
+        <img src="../../assets/icon/favicon.ico">
+      </ion-thumbnail>
+      <h2>My Neighbor Totoro</h2>
+      <p>Hayao Miyazaki • 1988</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+    <ion-item >
+      <ion-thumbnail item-left>
+        <img src="../../assets/icon/favicon.ico">
+      </ion-thumbnail>
+      <h2>My Neighbor Totoro</h2>
+      <p>Hayao Miyazaki • 1988</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+</ion-list>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+    <ion-segment color="light">
+      <ion-segment-button value="search" (click)="searchPlace()">
+        <ion-icon name="search"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="photos" (click)="categories()">
+        <ion-icon name="photos"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="add" (click)="addNew()">
+        <ion-icon name="add"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>
