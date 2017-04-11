@@ -7,6 +7,7 @@ import {AddplacePage} from "../pages/addplace/addplace";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {ViewplacePage} from "../pages/viewplace/viewplace";
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     Page1,
     Page2,
-    AddplacePage
+    AddplacePage,
+    ViewplacePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -24,7 +26,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     Page1,
     Page2,
-    AddplacePage
+    AddplacePage,
+    ViewplacePage
   ],
   providers: [
     StatusBar,
