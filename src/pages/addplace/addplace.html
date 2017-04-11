@@ -14,7 +14,7 @@
 
 
 <ion-content padding>
-  <img src="{{pathForImage(lastImage)}}" style="height:250px;" [hidden]="lastImage === null">
+  <img src="{{pathForImage(lastImage)}}" style="height:200px;" [hidden]="lastImage === null">
   <ion-grid [hidden]="lastImage !== null" >
     <ion-row>
       <ion-col col-12 (click)="presentActionSheet()">

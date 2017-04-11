@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc3fcd5-2b36-47da-9a07-6248a2b7b415" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Categories/page2.html" afterPath="$PROJECT_DIR$/src/pages/Categories/page2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/addplace/addplace.html" afterPath="$PROJECT_DIR$/src/pages/addplace/addplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" afterPath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/viewplace/viewplace.html" afterPath="$PROJECT_DIR$/src/pages/viewplace/viewplace.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="addplace.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state relative-caret-position="29">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
               </folding>
@@ -36,14 +35,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="viewplace.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/viewplace/viewplace.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="126" lean-forward="false" selection-start-line="14" selection-start-column="126" selection-end-line="14" selection-end-column="126" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Categories/page2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="254">
+              <caret line="25" column="124" lean-forward="false" selection-start-line="25" selection-start-column="124" selection-end-line="25" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#ion-card#2;n#ion-content#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addplace.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addplace.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -94,14 +104,14 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/pages/Home/page1.ts" />
         <option value="$PROJECT_DIR$/src/pages/Home/page1.html" />
-        <option value="$PROJECT_DIR$/src/pages/viewplace/viewplace.html" />
         <option value="$PROJECT_DIR$/src/app/app.html" />
         <option value="$PROJECT_DIR$/src/pages/addplace/addplace.ts" />
         <option value="$PROJECT_DIR$/src/theme/variables.scss" />
         <option value="$PROJECT_DIR$/src/pages/Categories/page2.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Categories/page2.html" />
-        <option value="$PROJECT_DIR$/src/pages/addplace/addplace.html" />
         <option value="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
+        <option value="$PROJECT_DIR$/src/pages/addplace/addplace.html" />
+        <option value="$PROJECT_DIR$/src/pages/viewplace/viewplace.html" />
+        <option value="$PROJECT_DIR$/src/pages/Categories/page2.html" />
       </list>
     </option>
   </component>
@@ -366,12 +376,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491126107613</updated>
       <workItem from="1491126109723" duration="340000" />
-      <workItem from="1491891219792" duration="13849000" />
+      <workItem from="1491891219792" duration="14240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14189000" />
+    <option name="totallyTimeSpent" value="14580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="410" y="-17" width="956" height="766" extended-state="0" />
@@ -457,17 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/viewplace/viewplace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#ion-icon#0;n#ion-item#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ion-icon#0;n#ion-item#1;n#ion-card#0;n#ion-content#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -544,32 +543,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Categories/page2.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        <state relative-caret-position="29">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/viewplace/viewplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="14" column="126" lean-forward="false" selection-start-line="14" selection-start-column="126" selection-end-line="14" selection-end-column="126" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Categories/page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" column="124" lean-forward="false" selection-start-line="25" selection-start-column="124" selection-end-line="25" selection-end-column="124" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#ion-card#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#ion-card#2;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
