@@ -2,6 +2,10 @@ page-page2 {
   .scroll-content{
     overflow-y: visible;
   }
+
+  .segment-md-light .segment-button.activated, .segment-md-light .segment-button.segment-activated{
+    border-color: rgba(0, 0, 0, 0.0980392);
+  }
 }
 
 .card-background-page {

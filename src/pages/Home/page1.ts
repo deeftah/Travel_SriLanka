@@ -17,11 +17,11 @@ export class Page1 {
   }
 
   searchPlace(){
-    this.navCtrl.push(Page1);
+    this.navCtrl.setRoot(Page1);
   }
 
   categories(){
-    this.navCtrl.push(Page2);
+    this.navCtrl.setRoot(Page2);
   }
 
   addNew(){

@@ -26818,6 +26818,10 @@ page-page2 .scroll-content {
   overflow-y: visible;
 }
 
+page-page2 .segment-md-light .segment-button.activated, page-page2 .segment-md-light .segment-button.segment-activated {
+  border-color: rgba(0, 0, 0, 0.0980392);
+}
+
 .card-background-page ion-card {
   position: relative;
   text-align: center;
@@ -26842,6 +26846,10 @@ page-page2 .scroll-content {
 
 page-page1 .scroll-content {
   overflow-y: hidden;
+}
+
+page-addplace .scroll-content {
+  overflow-y: visible;
 }
 
 page-addplace .image-box {
