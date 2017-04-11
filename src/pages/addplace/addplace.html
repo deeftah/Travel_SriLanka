@@ -28,11 +28,9 @@
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar color="primary">
-    <ion-buttons>
-      <button ion-button icon-only (click)="uploadImage()" [disabled]="lastImage === null">
-        <ion-icon name="cloud-upload"></ion-icon>Upload
+  <ion-toolbar color="custom">
+      <button  color="custom" ion-button icon-left (click)="uploadImage()" [disabled]="lastImage === null" full>
+        <ion-icon name="cloud-upload"></ion-icon>ADD NEW PLACE
       </button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-footer>
