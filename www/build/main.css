@@ -26861,3 +26861,9 @@ page-addplace .text-select {
   margin-top: 5px;
   color: #494949;
 }
+
+page-addplace .details {
+  color: #494949;
+  margin-left: 10px;
+  font-style: italic;
+}

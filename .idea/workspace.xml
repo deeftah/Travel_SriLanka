@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc3fcd5-2b36-47da-9a07-6248a2b7b415" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/addplace/addplace.html" afterPath="$PROJECT_DIR$/src/pages/addplace/addplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" afterPath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addplace.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addplace.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="74">
+              <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
               </folding>
@@ -56,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addplace.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addplace.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -95,10 +98,10 @@
         <option value="$PROJECT_DIR$/src/app/app.html" />
         <option value="$PROJECT_DIR$/src/pages/addplace/addplace.ts" />
         <option value="$PROJECT_DIR$/src/theme/variables.scss" />
-        <option value="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
         <option value="$PROJECT_DIR$/src/pages/Categories/page2.scss" />
         <option value="$PROJECT_DIR$/src/pages/Categories/page2.html" />
         <option value="$PROJECT_DIR$/src/pages/addplace/addplace.html" />
+        <option value="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
       </list>
     </option>
   </component>
@@ -363,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491126107613</updated>
       <workItem from="1491126109723" duration="340000" />
-      <workItem from="1491891219792" duration="12583000" />
+      <workItem from="1491891219792" duration="13849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12923000" />
+    <option name="totallyTimeSpent" value="14189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="410" y="-17" width="956" height="766" extended-state="0" />
@@ -533,14 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Categories/page2.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -562,11 +557,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="74">
+          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
