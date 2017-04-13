@@ -157,7 +157,7 @@ export class AddplacePage {
   }
 
   public placeAddForm(){
-    this.ServiceProvider.addNewPlace(this.places.value);
+    this.ServiceProvider.addNewPlace(this.places.value).subscribe(res=>{ console.log(res)});
   }
 
 }

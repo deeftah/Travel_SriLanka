@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http,Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
@@ -10,8 +10,11 @@ export class Service {
   }
 
   addNewPlace(data:any){
-    // let headers = new ({ 'Content-Type': 'application/json' });
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
     console.log(data);
-    this.http.get("http://localhost:3000/postData/?postData="+data);
+    return this.http.post("http://127.0.0.1:3000/postData",data,{'headers': headers}).map(res=>res.json());
   }
+
+
 }
