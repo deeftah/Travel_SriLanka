@@ -3,6 +3,7 @@ import { NavController, ActionSheetController, ToastController, Platform, Loadin
 import { Camera, File, Transfer, FilePath } from 'ionic-native';
 import {Service} from '../../providers/service';
 import {Validators, FormBuilder, FormGroup } from '@angular/forms';
+import {Page1} from "../Home/page1";
 
 declare var cordova: any;
 
@@ -157,7 +158,11 @@ export class AddplacePage {
   }
 
   public placeAddForm(){
-    this.ServiceProvider.addNewPlace(this.places.value).subscribe(res=>{ console.log(res)});
+    this.ServiceProvider.addNewPlace(this.places.value).subscribe(res=>{
+
+      this.navCtrl.setRoot(Page1);
+
+    });
   }
 
 }

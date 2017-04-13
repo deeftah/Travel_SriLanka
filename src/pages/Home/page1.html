@@ -16,12 +16,12 @@
   </p>
 
   <ion-list>
-    <ion-item >
+    <ion-item *ngFor="let item of placesList">
       <ion-thumbnail item-left>
         <img src="http://dev2.maiglobetravels.com/wp-content/uploads/2015/02/Couple-snorkling-in-tropical-lagoon-with-over-water-bungalows.jpg">
       </ion-thumbnail>
-      <h2>My Neighbor Totoro</h2>
-      <p>Hayao Miyazaki • 1988</p>
+      <h2>{{item.lname}}</h2>
+      <p>{{item.category}} • {{item.city}}</p>
       <button ion-button clear item-right (click)="viewPlace()">View</button>
     </ion-item>
 </ion-list>
