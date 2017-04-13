@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading } from 'ionic-angular';
 import { Camera, File, Transfer, FilePath } from 'ionic-native';
+import {Service} from '../../providers/service';
+import {Validators, FormBuilder, FormGroup } from '@angular/forms';
 
 declare var cordova: any;
 
@@ -11,12 +13,24 @@ declare var cordova: any;
 export class AddplacePage {
   lastImage: string = null;
   loading: Loading;
+  private places : FormGroup;
 
   constructor(public navCtrl: NavController,
               public actionSheetCtrl: ActionSheetController,
               public toastCtrl: ToastController,
               public platform: Platform,
-              public loadingCtrl: LoadingController) {}
+              public loadingCtrl: LoadingController,
+              private formBuilder: FormBuilder,
+              public ServiceProvider:Service) {
+
+    this.places = this.formBuilder.group({
+      lname: ['', Validators.required],
+      category: [''],
+      province:[''],
+      city:['',Validators.required],
+      description:['']
+    });
+  }
 
   public presentActionSheet() {
     let actionSheet = this.actionSheetCtrl.create({
@@ -140,6 +154,10 @@ export class AddplacePage {
       this.loading.dismissAll()
       this.presentToast('Error while uploading file.');
     });
+  }
+
+  public placeAddForm(){
+    this.ServiceProvider.addNewPlace(this.places.value);
   }
 
 }

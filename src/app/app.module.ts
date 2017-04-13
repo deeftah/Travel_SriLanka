@@ -8,6 +8,7 @@ import {AddplacePage} from "../pages/addplace/addplace";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {ViewplacePage} from "../pages/viewplace/viewplace";
+import {Service} from "../providers/service";
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {ViewplacePage} from "../pages/viewplace/viewplace";
   providers: [
     StatusBar,
     SplashScreen,
+    Service,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
