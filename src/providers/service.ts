@@ -13,7 +13,7 @@ export class Service {
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
     console.log(data);
-    return this.http.post("http://127.0.0.1:3000/postData",data,{'headers': headers}).map(res=>res.json());
+    return this.http.post("http://127.0.0.1:3000/postData",JSON.stringify(data),{'headers': headers}).map(res=>res.json());
   }
 
 
