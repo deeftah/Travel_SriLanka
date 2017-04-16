@@ -30,8 +30,9 @@ export class Page1 {
     this.navCtrl.push(AddplacePage);
   }
 
-  viewPlace(){
-    this.navCtrl.push(ViewplacePage);
+  viewPlace(id:any){
+    //console.log(id);
+    this.navCtrl.push(ViewplacePage,{id:id});
   }
 
   public placeAddForm(){

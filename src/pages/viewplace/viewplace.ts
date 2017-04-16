@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {Service} from "../../providers/service";
 
 /*
   Generated class for the Viewplace page.
@@ -12,11 +13,15 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'viewplace.html'
 })
 export class ViewplacePage {
+  placeDetails:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, private  ServiceProvider:Service) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ViewplacePage');
+    //console.log();
+    this.ServiceProvider.viewPlaces(this.navParams.get('id')).subscribe(res=>{
+      this.placeDetails = res;
+    });
   }
 
 }
