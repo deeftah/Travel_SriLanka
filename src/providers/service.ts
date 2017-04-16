@@ -29,4 +29,10 @@ export class Service {
     return this.http.get(this.locationUrl+"/getOneData/"+id,{'headers': headers}).map(res=>res.json());
   }
 
+  searchPlaces(key:any){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    return this.http.get(this.locationUrl+"/searchData/"+key,{'headers': headers}).map(res=>res.json());
+  }
+
 }

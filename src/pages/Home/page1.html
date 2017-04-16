@@ -6,7 +6,7 @@
     <ion-title>Travel_Sri Lanka Home</ion-title>
   </ion-navbar>
   <ion-toolbar color="custom">
-    <ion-searchbar></ion-searchbar>
+    <ion-searchbar (keyup)="findPlace($event)"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
@@ -14,6 +14,7 @@
   <p>
     Top places in Sri Lanka to visit.
   </p>
+  <h3 *ngIf="placesList?.length === 0" class="noFound">- No results found -</h3>
 
   <ion-list>
     <ion-item *ngFor="let item of placesList">

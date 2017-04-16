@@ -26848,6 +26848,11 @@ page-page1 .scroll-content {
   overflow-y: hidden;
 }
 
+page-page1 .noFound {
+  text-align: center;
+  color: #f26060 !important;
+}
+
 page-addplace .scroll-content {
   overflow-y: visible;
 }

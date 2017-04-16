@@ -44,4 +44,14 @@ export class Page1 {
     });
   }
 
+  public findPlace(key:any){
+    //console.log()
+    this.ServiceProvider.searchPlaces(key.target.value).subscribe(res=>{
+
+      //console.log(res);
+      this.placesList = res;
+
+    });
+  }
+
 }
