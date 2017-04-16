@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {Service} from "../../providers/service";
+import {MapviewPage} from "../mapview/mapview";
 
 /*
   Generated class for the Viewplace page.
@@ -22,6 +23,10 @@ export class ViewplacePage {
     this.ServiceProvider.viewPlaces(this.navParams.get('id')).subscribe(res=>{
       this.placeDetails = res;
     });
+  }
+
+  viewMap(){
+    this.navCtrl.push(MapviewPage);
   }
 
 }

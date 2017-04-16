@@ -9,6 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {ViewplacePage} from "../pages/viewplace/viewplace";
 import {Service} from "../providers/service";
+import {ConnectivityService} from "../providers/connectivity-service";
+import {MapviewPage} from "../pages/mapview/mapview";
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import {Service} from "../providers/service";
     Page1,
     Page2,
     AddplacePage,
-    ViewplacePage
+    ViewplacePage,
+    MapviewPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -28,12 +31,14 @@ import {Service} from "../providers/service";
     Page1,
     Page2,
     AddplacePage,
-    ViewplacePage
+    ViewplacePage,
+    MapviewPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     Service,
+    ConnectivityService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

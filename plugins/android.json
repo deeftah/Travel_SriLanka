@@ -25,6 +25,12 @@
         "cordova-plugin-filepath": {
             "PACKAGE_NAME": "com.ionicframework.travelsrilanka558249"
         },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.travelsrilanka558249"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ionicframework.travelsrilanka558249"
+        },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.ionicframework.travelsrilanka558249"
         },
