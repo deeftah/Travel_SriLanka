@@ -45,13 +45,19 @@ export class Page1 {
   }
 
   public findPlace(key:any){
-    //console.log()
-    this.ServiceProvider.searchPlaces(key.target.value).subscribe(res=>{
 
-      //console.log(res);
-      this.placesList = res;
+    this.placeAddForm();
+    let val = key.target.value;
 
-    });
+    if(val && val.trim() != ''){
+      this.ServiceProvider.searchPlaces(val).subscribe(res=>{
+
+        //console.log(res);
+        this.placesList = res;
+
+      });
+    }
+
   }
 
 }

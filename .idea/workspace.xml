@@ -4,11 +4,7 @@
     <list default="true" id="4dc3fcd5-2b36-47da-9a07-6248a2b7b415" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Home/page1.html" afterPath="$PROJECT_DIR$/src/pages/Home/page1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Home/page1.scss" afterPath="$PROJECT_DIR$/src/pages/Home/page1.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Home/page1.ts" afterPath="$PROJECT_DIR$/src/pages/Home/page1.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" afterPath="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/providers/service.ts" afterPath="$PROJECT_DIR$/src/providers/service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js.map" afterPath="$PROJECT_DIR$/www/build/main.js.map" />
     </list>
@@ -31,28 +27,18 @@
       <file leaf-file-name="page1.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="443">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page1.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.scss">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -105,11 +91,11 @@
         <option value="$PROJECT_DIR$/src/pages/mapview/mapview.html" />
         <option value="$PROJECT_DIR$/src/pages/mapview/mapview.scss" />
         <option value="$PROJECT_DIR$/src/pages/mapview/mapview.ts" />
-        <option value="$PROJECT_DIR$/src/pages/Home/page1.ts" />
         <option value="$PROJECT_DIR$/src/providers/service.ts" />
-        <option value="$PROJECT_DIR$/src/pages/Home/page1.html" />
         <option value="$PROJECT_DIR$/src/pages/addplace/addplace.scss" />
         <option value="$PROJECT_DIR$/src/pages/Home/page1.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Home/page1.html" />
+        <option value="$PROJECT_DIR$/src/pages/Home/page1.ts" />
       </list>
     </option>
   </component>
@@ -384,12 +370,12 @@
       <workItem from="1492050764767" duration="8169000" />
       <workItem from="1492065023868" duration="14621000" />
       <workItem from="1492232908318" duration="1055000" />
-      <workItem from="1492338947520" duration="11611000" />
+      <workItem from="1492338947520" duration="12901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53680000" />
+    <option name="totallyTimeSpent" value="54970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="410" y="-17" width="956" height="766" extended-state="0" />
@@ -702,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/addplace/addplace.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -718,18 +696,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home/page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
