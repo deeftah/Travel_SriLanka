@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlertController } from 'ionic-angular';
 import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading } from 'ionic-angular';
 import { Camera, File, Transfer, FilePath } from 'ionic-native';
 import {Service} from '../../providers/service';
@@ -22,6 +23,7 @@ export class AddplacePage {
               public platform: Platform,
               public loadingCtrl: LoadingController,
               private formBuilder: FormBuilder,
+              public alertCtrl: AlertController,
               public ServiceProvider:Service) {
 
     this.places = this.formBuilder.group({
@@ -160,9 +162,25 @@ export class AddplacePage {
   public placeAddForm(){
     this.ServiceProvider.addNewPlace(this.places.value).subscribe(res=>{
 
-      this.navCtrl.setRoot(Page1);
+      this.showConfirm();
 
     });
+  }
+
+  showConfirm() {
+    let confirm = this.alertCtrl.create({
+      title: 'Travel Location',
+      message: 'Your location upload successfully! Now it goes to admin approval',
+      buttons: [
+        {
+          text: 'Ok',
+          handler: () => {
+            this.navCtrl.setRoot(Page1);
+          }
+        }
+      ]
+    });
+    confirm.present();
   }
 
 }
