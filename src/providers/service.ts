@@ -7,7 +7,8 @@ export class Service {
   locationUrl:any;
 
   constructor(public http: Http) {
-    this.locationUrl = "http://127.0.0.1:3000";
+    //this.locationUrl = "http://127.0.0.1:3000";
+    this.locationUrl = "https://hidden-thicket-18651.herokuapp.com";
   }
 
   addNewPlace(data:any){

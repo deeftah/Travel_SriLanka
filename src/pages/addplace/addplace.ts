@@ -41,18 +41,21 @@ export class AddplacePage {
       buttons: [
         {
           text: 'Load from Library',
+          icon: 'image',
           handler: () => {
             this.takePicture(Camera.PictureSourceType.PHOTOLIBRARY);
           }
         },
         {
           text: 'Use Camera',
+          icon: 'camera',
           handler: () => {
             this.takePicture(Camera.PictureSourceType.CAMERA);
           }
         },
         {
           text: 'Cancel',
+          icon: 'close',
           role: 'cancel'
         }
       ]
@@ -161,7 +164,7 @@ export class AddplacePage {
 
   public placeAddForm(){
     this.ServiceProvider.addNewPlace(this.places.value).subscribe(res=>{
-
+      //this.uploadImage();
       this.showConfirm();
 
     });
